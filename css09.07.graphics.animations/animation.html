@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Tutorial</title>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        @keyframes my-animation {
+            from {
+                /*arxiki timi*/
+                background-color: white;
+            }
+
+            30% {
+                /*endiamesi timi*/
+                background-color: blue;
+                border: 10px solid black;
+            }
+
+            70% {
+                /*endiamesi timi 2*/
+                transform: skew(-20deg) scale(1.2);
+                border: 10px solid red;
+            }
+
+            to {
+                /*teliki timi*/
+                background-color: red;
+            }
+        }
+
+        .animated {
+            width: 100px;
+            margin: 20px auto;
+            padding: 40px;
+            font-size: 24px;
+            animation-name: my-animation;
+            animation-duration: 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="animated">animation</div>
+    </main>
+</body>
+
+</html>

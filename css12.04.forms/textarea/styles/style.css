@@ -1,0 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+}
+
+form {
+  display: grid;
+  grid-auto-rows: -webkit-min-content;
+  grid-auto-rows: min-content;
+  grid-template-columns: 1fr 4fr;
+  row-gap: 10px;
+  -webkit-column-gap: 5px;
+     -moz-column-gap: 5px;
+          column-gap: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px blue solid;
+  padding: 20px;
+}
+form label {
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: end;
+}
+form input[type=submit] {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+form textarea {
+  display: block;
+  height: 100px;
+}
+form textarea#txtComments2 {
+  resize: none;
+}/*# sourceMappingURL=style.css.map */

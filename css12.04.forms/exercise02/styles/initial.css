@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Roboto Flex", sans-serif;
+  background-color: rgba(234, 248, 191, 0.2);
+}
+
+.login {
+  width: 650px;
+}/*# sourceMappingURL=initial.css.map */

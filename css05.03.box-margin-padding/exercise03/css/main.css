@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Segoe UI Historic";
+  src: url("fonts/Segoe ui historic.ttf");
+}
+
+.icon_user,
+.icon_verified,
+.icon_public,
+.social-bar-stats img,
+.social-bar-react img {
+  width: 30px;
+}
+
+:root {
+  font-family: "Segoe UI Historic", sans-serif;
+  font-size: 16px;
+  --color-black: rgb(5, 5, 5);
+  --color-grey: rgb(101, 103, 107);
+}
+
+body {
+  background-color: #F0F2F5;
+}
+
+.post {
+  font-size: 15px;
+  color: var(--color-black);
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px lightgrey;
+}
+
+.post h2 {
+  font-weight: bold;
+}
+
+.post>header>p {
+  font-size: 13px;
+  color: var(--color-grey);
+  line-height: 20px;
+}
+
+.post a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post div.link-to-page-div {
+  background-color: #F0F2F5;
+  padding: 10px 15px 5px;
+  border-bottom: 1px lightgrey solid;
+}
+
+.post a.link-to-page h3 {
+  font-size: 13px;
+  font-weight: normal;
+  color: var(--color-grey);
+  margin: 0;
+}
+
+.post a.link-to-page p.title {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.post a.link-to-page p.subtitle {
+  color: var(--color-grey);
+  margin: 5px 0;
+}
+
+
+.post .social-bar-stats {
+  font-size: 14px;
+  color: var(--color-grey);
+  border-bottom: 1px lightgrey solid;
+}
+
+.post .social-bar-react-icons {
+  border-bottom: 1px lightgrey solid;
+}
+
+.post .social-bar-react {
+  font-weight: bold;
+  color: var(--color-grey);
+  border-bottom: 1px lightgrey solid;
+}
+
+
+.post .comment-text {
+  background-color: #F0F2F5;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+
+}
+
+.post .comments h3 {
+  font-size: 13px;
+  color: var(--color-black);
+  margin: 2px;
+  padding: 0;
+}
+
+.post .comments p {
+  color: var(--color-black);
+  line-height: 20px;
+  font-weight: normal;
+  margin: 2px;
+  padding: 0;
+}
+
+.post .comment-like,
+.post .comment-reply {
+  font-weight: bold;
+}
+
+.post .more :first-child {
+  font-weight: 600;
+}
+
+.post .comments>span {
+  font-size: 12px;
+}
+
+/* hyperlinks */
+a.hyperlink-underline {
+  text-decoration: none;
+}
+
+a.hyperlink-underline:hover {
+  text-decoration: underline;
+}
+
+a.hyperlink-underline:focus {
+  outline: 2px blue solid;
+}
+
+a.hyperlink-underline:active {
+  text-decoration: underline;
+}
